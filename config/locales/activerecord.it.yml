@@ -1,0 +1,17 @@
+---
+it:
+  activerecord:
+    attributes:
+      poll:
+        expires_at: Scadenza
+        options: Scelte
+    errors:
+      models:
+        account:
+          attributes:
+            username:
+              invalid: solo lettere, numeri e trattini bassi
+        status:
+          attributes:
+            reblog:
+              taken: dello stato esiste già
